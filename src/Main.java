@@ -6,7 +6,9 @@ public class Main {
         if(variable>5){
             System.out.println("variable is greater than 5");
         }
-        else {
+        else if (variable==2) {
+            System.out.println("variable is a scam");
+        } else {
             System.out.println("variable is les than 5");
         }
     }
